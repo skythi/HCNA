@@ -1,0 +1,29 @@
+### VRP
+VRP(Versatile Routing Platform)，华为公司数通产品得通过网络操作系统  
+<table>
+        <tr>
+            <th>用户级别</th>
+            <th>命令级别</th>
+            <th>说明</th>
+        </tr>
+        <tr>
+            <th>0</th>
+            <th>0</th>
+            <th>网络诊断命令,从本设备访问其他设备得命令</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>0、1</th>
+            <th>系统维护命令，包括部分display</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>0、1、2</th>
+            <th>业务配置命令，包括路由，各个网络层次得命令</th>
+        </tr>
+        <tr>
+            <th>3~15</th>
+            <th>0、1、2、3</th>
+            <th>设计系统基本运行得命令，如文件系统，FTP下载，配置文件切换，用户管理命令，命令级别设别，包括debugging</th>
+        </tr>
+    </table>
